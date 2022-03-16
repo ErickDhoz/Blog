@@ -29,6 +29,7 @@ body{
     text-align: right;
     border: 2px solid whitesmoke;
     border-radius: 20px;
+    text-transform: uppercase;
     
     
 }
@@ -37,7 +38,7 @@ body{
     list-style: none;
     padding: 5px;
     font: bold 14px verdana, italic;
-    
+      
     
 }
 #img{
@@ -113,8 +114,21 @@ background-color:#8b8a8a; ;
     font-family: sans-serif;
 }
 
-#contacto{
+.contacto{
     border-bottom: 2px solid #000000;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial, bold;
+    padding-bottom: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
 
+}
+#name{
+    margin-top: 5px;
+}
+.linkedin{
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(14, 118, 168);
 }
